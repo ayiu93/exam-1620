@@ -15,4 +15,6 @@ function addToCart() {
 
 }
 
-window.addEventListener('load', updateImage());
+updateImage();
+//window.addEventListener('load', updateImage());
+window.addEventListener("click", e=> addToCart());

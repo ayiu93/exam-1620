@@ -51,6 +51,8 @@ h1 {
 
 .cart {
     background-color: var(--cartColour);
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .cart-row {
@@ -61,6 +63,13 @@ h1 {
 span {
     font-size: 0.75rem;
     padding: 0.5rem;
+}
+
+hr {
+    color: var(--textColour);
+    background-color: var(--textColour);
+    border-width: 0;
+    height: 2px;
 }
 
 footer {
