@@ -1,9 +1,30 @@
+:root {
+    --backgroundColour: #9ccfd8;
+    --barColour: #31748f;
+    --textColour: #555169;
+    --cartColour: #e0def4;
+    --titleColour: #ffffff;
+}
+
 * {
     padding: 0;
     margin: 0;
     font-family: 'RocknRoll One', sans-serif;
+    color: var(--textColour);
+    background-color: var(--backgroundColour);
 }
 
-h1{
+h1 {
     font-family: 'Indie Flower', cursive;
+    color: var(--titleColour);
+    background-color: var(--barColour);
+}
+
+footer {
+    background-color: var(--barColour);
+    color: var(--titleColour);
+}
+
+@media screen and (min-width: 640px) {
+
 }
