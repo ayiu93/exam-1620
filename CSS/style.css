@@ -30,6 +30,19 @@ h1 {
     font-size: 4rem;
 }
 
+.shop-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-item-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+}
+
 .shop-items {
     display: flex;
     flex-direction: column;
@@ -46,6 +59,7 @@ h1 {
 
 span {
     font-size: 0.75rem;
+    padding: 0.5rem;
 }
 
 footer {
