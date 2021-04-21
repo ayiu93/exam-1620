@@ -63,6 +63,11 @@ footer {
         justify-content: space-evenly;
     }
 
+    nav {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
     .shop-items {
         display: grid;
         grid-template-columns: 1fr 1fr;
